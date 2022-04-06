@@ -13,12 +13,30 @@ textarea {
   padding: 10px;
 }
 
+h1 {
+  background: linear-gradient(to right, #e100ff, #7f00ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+p {
+  /* color: white; */
+  color: #212121;
+  font-style: italic;
+}
+
+h2 {
+  /* color: #ffc800; */
+  /* color: white; */
+  color: #212121;
+}
 .jumbotron {
   text-align: center;
   background-color: transparent;
+  /* background-color: #212122; */
   color: black;
   border-radius: 0;
-  border-bottom: 10px solid black;
+  border-bottom: 10px solid rgb(89, 5, 185);
 }
 
 .description {
