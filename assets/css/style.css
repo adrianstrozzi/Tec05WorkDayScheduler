@@ -48,16 +48,23 @@ h2 {
   border-radius: 15px;
 }
 
+.text-area {
+  border-left: 3px solid black;
+  background-color: transparent;
+  width: inherit;
+}
+
 .row {
   white-space: pre-wrap;
-  height: 80px;
+  height: 100px;
   border-top: 1px solid white;
+  margin-bottom: 10px;
 }
 
 .hour {
   background-color: #ffffff;
-  color: #000000;
-  border-top: 1px dashed #000000;
+  color: black;
+  border-top: 3px solid #f40caa;
 }
 
 .past {
@@ -75,15 +82,38 @@ h2 {
   color: white;
 }
 
+ion-icon {
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+
 .saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06aed5;
+  background-color: #6706d5;
   color: white;
+  border: 0;
 }
 
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
+
+
+/* .save-button {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #b206d5;
+  color: white;
+}
+
+.save-button :hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+} */
+
