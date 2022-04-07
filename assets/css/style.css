@@ -22,20 +22,16 @@ h1 {
 }
 
 p {
-  /* color: white; */
   color: #212121;
   font-style: italic;
 }
 
 h2 {
-  /* color: #ffc800; */
-  /* color: white; */
   color: #212121;
 }
 .jumbotron {
   text-align: center;
   background-color: transparent;
-  /* background-color: #212122; */
   color: black;
   border-radius: 0;
   border-bottom: 10px solid rgb(89, 5, 185);
@@ -108,18 +104,3 @@ ion-icon {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
-
-
-/* .save-button {
-  border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background-color: #b206d5;
-  color: white;
-}
-
-.save-button :hover {
-  font-size: 20px;
-  transition: all 0.3s ease-in-out;
-} */
-
