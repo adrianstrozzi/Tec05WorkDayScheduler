@@ -6,7 +6,7 @@
 
 ## <span style="color:violet">How to use</span>
 
-Use this **link** to access the Work Day Scheduler: [Adrian Strozzi - Work Day Scheduler](https://adrianstrozzi.github.io/Tec04CodeQuiz/)
+Use this **link** to access the Work Day Scheduler: [Adrian Strozzi - Work Day Scheduler](https://adrianstrozzi.github.io/Tec05WorkDayScheduler/)
 
 ## <span style="color:violet">Usage</span>
 
