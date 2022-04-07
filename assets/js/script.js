@@ -19,7 +19,7 @@ function colorTextArea() {
 
   let currentTime = moment().format('hh a');
 
-  const scheduleHour = [
+  let scheduleHour = [
     $("#0").text(),
     $("#1").text(),
     $("#2").text(),
@@ -35,7 +35,7 @@ function colorTextArea() {
   console.log(currentTime);
 
   //Remove Old classes from the element
-  // $(".hour").removeClass(".present .past .future");
+  $(".hour").removeClass(".present .past .future");
 
 
   for (let i = 0; i < scheduleHour.length; i++) {

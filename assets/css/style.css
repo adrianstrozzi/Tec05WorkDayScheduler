@@ -67,19 +67,19 @@ h2 {
 }
 
 .past {
-  background-color: #e1e1e1;
+  background-color: #cccccc;
   color: white;
   border-radius: 10px 0px 0px 10px;
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: #f98d87;
   color: white;
   border-radius: 10px 0px 0px 10px;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #a3ffd4;
   color: white;
   border-radius: 10px 0px 0px 10px;
 }
