@@ -1,89 +1,31 @@
-# 05 Third-Party APIs: Work Day Scheduler
+# <span style="color:skyblue">**Adrian Strozzi - Work Day Scheduler**</span>
 
-## Your Task
+## <span style="color:violet">Description</span>
 
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+> Welcome to the Work Day Scheduler! This planner uses JQuery and Moment.js to detect the hour of the day and color the time blocks accordingly. Current hour (red), past hour (grey) and future hours (green). You can also make your own notes on an specific hour of the day and save it in the Local Storage.
 
-You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
+## <span style="color:violet">How to use</span>
 
-## User Story
+Use this **link** to access the Work Day Scheduler: [Adrian Strozzi - Work Day Scheduler](https://adrianstrozzi.github.io/Tec04CodeQuiz/)
 
-```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+## <span style="color:violet">Usage</span>
 
-## Acceptance Criteria
+Below is an image of all the elements in the Work Day Scheduler Page:
+![mainpage](./assets/images/readme-images/completeApp.png)
 
-```md
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
+You will find a **Timer** with Date and Time at the top of the date:
+![mainpage](./assets/images/readme-images/dateTime.png)
 
-The following animation demonstrates the application functionality:
+Use the **Text Input** to enter your note:
+![mainpage](./assets/images/readme-images/textInput.png)
 
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
+Click the **Save Button** to save your note:  
+![mainpage](./assets/images/readme-images/saveButton.png)
 
+## <span style="color:violet">Credits</span>
 
-## Grading Requirements
+**Adrian Strozzi:** [https://github.com/adrianstrozzi](https://github.com/adrianstrozzi)
 
-This homework is graded based on the following criteria: 
+## <span style="color:violet">License</span>
 
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria plus the following:
-
-  * Uses a date utility library to work with date and time
-
-### Deployment: 32%
-
-* Application deployed at live URL
-
-* Application loads with no errors
-
-* Application GitHub URL submitted
-
-* GitHub repo contains application code
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate
-
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the homework instructions
-
-### Repository Quality: 13%
-
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
-- - -
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+**© 2021 Adrian Strozzi**
